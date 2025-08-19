@@ -1,0 +1,25 @@
+{
+  "name": "socket-chat-example",
+  "version": "1.0.0",
+  "description": "This is the first chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon inde.js"
+  },
+  "keywords": [
+    "Socket",
+    "Express",
+    "Chat",
+    "App"
+  ],
+  "author": "Siddharth Kumar Chouhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
